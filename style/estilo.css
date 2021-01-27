@@ -1,0 +1,96 @@
+:root {
+    --vermelho : #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo {
+    margin-left: 8px;
+    color: var(--vermelho);
+    font-family: arial;
+    font-size: 40px;
+}
+header nav a{   
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover {
+ color: white;
+}
+
+/* filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: url('../img/fundo.jpg');
+    background-size: cover;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.botoes {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.botao {
+   
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 20px;
+    transition: 2s ease all;
+    border-radius: 5%;
+    margin-right: 5px;
+}
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+.rolagem1 {
+    height: 10%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    
+}
+.sinopse {
+font-size: 22px;
+
+}
+.tube {
+    text-decoration: none;
+    color: white;
+}
+.tube:hover {
+
+    color:black;
+}
